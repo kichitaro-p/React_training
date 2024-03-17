@@ -14,6 +14,8 @@ export const App = () => {
       <ColorfulMessage color="green">ｹﾞﾝｷﾃﾞｽ！</ColorfulMessage>
       <button onClick={onClickCountUp}>カウントアップ</button>
       <p>{num}</p>
+      <button>on/off</button>
+      <p>(@o@)</p>
     </>
   );
 };
